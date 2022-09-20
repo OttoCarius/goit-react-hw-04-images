@@ -32,6 +32,7 @@ function App() {
         .catch(error => console.log(error))
         .finally(() => setStatus(''));
     }
+    // eslint-disable-next-line
   }, [searchQuery, page]);
 
   const onLoadMore = () => {

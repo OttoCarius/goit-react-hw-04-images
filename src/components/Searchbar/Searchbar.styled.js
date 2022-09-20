@@ -43,7 +43,6 @@ export const StyledButton = styled.button`
   width: 48px;
   height: 48px;
   border: 0;
-  /* background-image: url('https://image.flaticon.com/icons/svg/149/149852.svg'); */
   background-size: 40%;
   background-repeat: no-repeat;
   background-position: center;
@@ -69,6 +68,17 @@ export const StyledLabel = styled.span`
 `;
 
 export const StyledInput = styled.input`
+  font-family: Georgia, serif;
+  font-size: 22px;
+  letter-spacing: 0.8px;
+  word-spacing: 3.2px;
+  color: #000000;
+  font-weight: 700;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: italic;
+  font-variant: normal;
+  text-transform: capitalize;
+
   display: inline-block;
   width: 100%;
   font: inherit;

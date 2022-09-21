@@ -26,7 +26,10 @@ function Searchbar({ onSubmit }) {
       return;
     }
     onSubmit(value);
+
+    resetForm();
   };
+  const resetForm = () => setValue('');
 
   return (
     <StyledSearch>

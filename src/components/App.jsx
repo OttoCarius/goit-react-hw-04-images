@@ -19,7 +19,10 @@ function App() {
   const [clickedImg, setClickedImg] = useState({});
   const [page, setPage] = useState(1);
 
+  const resetPage = () => setPhotos([]);
+
   const onSubmit = searchValue => {
+    resetPage();
     setSearchQuery(searchValue);
     setPage(1);
   };
